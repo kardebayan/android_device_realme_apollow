@@ -8,6 +8,11 @@ Build.BRAND=MTK
 # Display
 ro.opengles.version=196610
 
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # Kernel
 sys.ipo.pwrdncap=2
 ro.kernel.zio=38,108,105,16
