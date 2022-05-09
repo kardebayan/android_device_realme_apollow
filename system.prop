@@ -8,6 +8,9 @@ Build.BRAND=MTK
 # Display
 ro.opengles.version=196610
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
