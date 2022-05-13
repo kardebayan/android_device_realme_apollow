@@ -182,7 +182,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     ApollowFrameworksOverlay \
     ApollowOplusDozeOverlay \
-    ApollowSystemUIOverlay
+    ApollowSystemUIOverlay \
+    ApollowTelephonyOverlay
 
 # Power
 PRODUCT_PACKAGES += \
