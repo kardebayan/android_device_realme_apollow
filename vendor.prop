@@ -464,7 +464,6 @@ ro.vendor.mtk_eccci_c2k=1
 persist.radio.multisim.config=dsds
 persist.vendor.radio.msimmode=dsds
 ro.vendor.radio.max.multisim=dsds
-ro.telephony.sim.count=2
 telephony.active_modems.max_count=2
 ro.vendor.mtk_ril_mode=c6m_1rild
 ro.vendor.md_prop_ver=1

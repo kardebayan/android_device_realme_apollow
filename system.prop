@@ -19,6 +19,7 @@ ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
 
 # Radio
+ro.telephony.sim.count=2
 vendor.rild.libpath=mtk-ril.so
 vendor.rild.libargs=-d /dev/ttyC0
 
