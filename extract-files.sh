@@ -60,6 +60,9 @@ function blob_fixup {
         vendor/lib64/libwifi-hal-mtk.so)
             "${PATCHELF}" --set-soname "libwifi-hal-mtk.so" "${2}"
             ;;
+        vendor/lib*/hw/android.hardware.thermal@2.0-impl.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
+            ;;
         vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so)
             ;&
         vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so)
