@@ -121,6 +121,14 @@ PRODUCT_PACKAGES += \
     ueventd.mt6833.rc \
     ueventd.oplus.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0.vendor \
+    android.hardware.sensors@2.1.vendor \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
+    android.frameworks.sensorservice@1.0.vendor \
+    libsensorndkbridge
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
