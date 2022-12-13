@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0.vendor \
     android.hardware.graphics.allocator@3.0.vendor \
     android.hardware.graphics.allocator@4.0.vendor \
+    android.hardware.graphics.composer@2.3-service \
     libdrm.vendor
 
 # fastbootd
