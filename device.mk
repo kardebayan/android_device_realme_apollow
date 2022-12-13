@@ -109,7 +109,8 @@ PRODUCT_PACKAGES += \
     multi_init.rc \
     fstab.enableswap \
     fstab.mt6833 \
-    ueventd.mt6833.rc
+    ueventd.mt6833.rc \
+    ueventd.oplus.rc
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
