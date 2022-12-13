@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
     libdynproc \
     libhapticgenerator
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.1.vendor
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
