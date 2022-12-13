@@ -105,6 +105,11 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.3.vendor \
+    android.hardware.radio@1.6.vendor
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     factory_init.connectivity.common.rc \
