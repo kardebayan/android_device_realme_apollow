@@ -207,6 +207,10 @@ PRODUCT_PACKAGES += \
     ueventd.mt6833.rc \
     ueventd.oplus.rc
 
+# Secure Element
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.2.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
