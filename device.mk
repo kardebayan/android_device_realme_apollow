@@ -230,6 +230,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0.vendor
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.5.vendor \
