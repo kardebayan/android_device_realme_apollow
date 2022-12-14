@@ -256,6 +256,7 @@ PRODUCT_PACKAGES += \
     multi_init.rc \
     fstab.enableswap \
     fstab.mt6833 \
+    fstab.mt6833_ramdisk \
     ueventd.mt6833.rc \
     ueventd.oplus.rc
 
