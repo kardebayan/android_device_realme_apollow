@@ -3033,6 +3033,7 @@ vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
 vendor/etc/init/vpud.rc
 vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml
 vendor/etc/mtk_platform_codecs_config.xml
+vendor/lib/libcodec2_vndk.so:vendor/lib/libcodec2_vndk-mtk.so
 vendor/lib/vndk/libstagefright_foundation.so
 vendor/lib/vndk/libstagefright_omx.so
 vendor/lib/AVCSecureVdecCA.so
@@ -3086,6 +3087,7 @@ vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libvpu.so
 vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
+vendor/lib64/libcodec2_vndk.so:vendor/lib64/libcodec2_vndk-mtk.so
 vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/HEVCSecureVdecCA.so
 vendor/lib64/VP9SecureVdecCA.so
