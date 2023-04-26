@@ -85,6 +85,32 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    factory_init.connectivity.common.rc \
+    factory_init.connectivity.rc \
+    factory_init.project.rc \
+    factory_init.rc \
+    init.aee.rc \
+    init.ago.rc \
+    init.connectivity.common.rc \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6833.rc \
+    init.mt6833.usb.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    init_connectivity.rc \
+    meta_init.connectivity.common.rc \
+    meta_init.connectivity.rc \
+    meta_init.modem.rc \
+    meta_init.project.rc \
+    meta_init.rc \
+    multi_init.rc \
+    fstab.enableswap \
+    fstab.mt6833 \
+    ueventd.mt6833.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
