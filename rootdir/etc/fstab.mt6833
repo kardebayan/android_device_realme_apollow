@@ -114,7 +114,7 @@ odm /odm ext4 ro wait,,logical,first_stage_mount,nofail
 
 
 
-
+/dev/block/bootdevice/by-name/custom                    /my_custom           ext4    ro,barrier=1,discard    wait
 
 
 /dev/block/by-name/pi_img /pi_img emmc defaults defaults
