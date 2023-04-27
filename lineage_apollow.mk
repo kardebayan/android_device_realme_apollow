@@ -22,3 +22,6 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme 8s 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+# Time
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
