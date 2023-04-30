@@ -66,6 +66,8 @@ TARGET_KERNEL_CONFIG := k6833v1_64_k419_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 
+BOARD_PREBUILT_DTBIMAGE_DIR  := $(DEVICE_PATH)/prebuilt/dtb
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072                   # 2048      * 64   (pagesize)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432         # 32768     * 1024 (sdc42)
