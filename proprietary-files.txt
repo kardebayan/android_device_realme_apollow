@@ -2626,15 +2626,12 @@ odm/lib64/libfido_factory.so
 odm/lib64/vendor.oplus.hardware.fido.fidoca@1.0.so
 
 # Fingerprint
-odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service
 odm/bin/init.oplus.fingerprints.sh
-odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc
 odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml
--odm/etc/vintf/manifest/manifest_oplus_face.xml
 -odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
 -odm/etc/vintf/manifest/manifest_oplus_ifaa.xml
 odm/etc/fingerprint.json
@@ -2674,7 +2671,6 @@ odm/lib64/libsl_fp_impl.so
 odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
 odm/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
-odm/init.oplus.face.rc
 odm/init.oplus.fingerprints.rc
 odm/init.oplus.seccommon.rc
 system_ext/lib/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
