@@ -150,6 +150,9 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_PACKAGES += \
+    ApollowFrameworksOverlay
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor
