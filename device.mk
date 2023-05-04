@@ -83,6 +83,10 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     libdrm.vendor
 
+# Doze
+PRODUCT_PACKAGES += \
+    OplusDoze
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -172,6 +176,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
     ApollowFrameworksOverlay \
+    ApollowOplusDozeOverlay \
     ApollowSystemUIOverlay
 
 # Power
@@ -275,7 +280,8 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/oplus
 
 # Soundtrigger
 PRODUCT_PACKAGES += \
