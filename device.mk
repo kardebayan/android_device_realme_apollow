@@ -193,6 +193,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
+    android.hardware.power-service-mediatek \
     android.hardware.power-V2-ndk_platform.vendor \
     android.hardware.power@1.2.vendor
 
