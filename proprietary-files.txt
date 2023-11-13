@@ -1,4 +1,4 @@
-# Device proprietary files - from sys_mssi_64_cn_armv82-user 13 TP1A.220905.001 1680259588115 release-keys, unless pinned
+# Device proprietary files - from RMX3381_11_F.07, unless pinned
 
 # AAL
 vendor/lib/libaal_cust.so
