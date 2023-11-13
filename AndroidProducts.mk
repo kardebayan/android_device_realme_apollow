@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_apollow.mk
+    $(LOCAL_DIR)/arrow_apollow.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_apollow-user \
-    lineage_apollow-userdebug \
-    lineage_apollow-eng
+    arrow_apollow-user \
+    arrow_apollow-userdebug \
+    arrow_apollow-eng
